@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/estilos-index.css">
+<title>Página principal</title>
+
+    <!--  ESTILO DE LETRA  -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;400;700;900&display=swap" rel="stylesheet">
+
+    <!--  JQUERY SCRIPT | SCROLL  -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+        
+            if (this.hash !== "") {
+              event.preventDefault();
+        
+              var hash = this.hash;
+
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 100, function(){
+        
+                window.location.hash = hash;
+              });
+            } 
+          });
+        });
+</script>
+</head>
+    <div class="navegador">
+        <h1>IP SERVIDOR: 92.172.108.86:25565</h1>
+        <a href="#"> EVENTOS </a>
+        <a href="#"> REGLAS  </a>
+        <a href="#"> SOBRE NOSOTROS </a>
+    </div>
+    
+<body>
+    <div class="contenedor-general">
+        <div class="main-1">
+            <h1> SERVIDOR ESPAÑA MINECRAFT 1.17 </h1>
+            <hr>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eos, iste exercitationem quia corrupti dolor accusantium minima quisquam incidunt eligendi labore, recusandae facere at laborum nihil blanditiis reprehenderit quod, vitae provident officiis numquam unde id perspiciatis. Unde delectus eum rerum impedit eius, facilis accusamus sed laboriosam atque inventore hic earum?</p>
+            <h1> EJEMPLO DE TITULO </h1>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est molestias similique aperiam quasi, praesentium architecto reprehenderit debitis harum possimus, facere consequuntur, odio earum voluptatem! Facilis quia odio molestias, consectetur rerum ad esse. Aliquid consectetur soluta, voluptatibus et aliquam, amet temporibus accusamus doloremque iure earum adipisci optio quam quos, non molestias.</p>
+            <hr>
+            <h1> EJEMPLO DE TITULO 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequatur sed facere, temporibus nemo debitis, repellendus quae labore, quos ad vel ex quisquam quasi. Animi quisquam consequuntur facilis. Vero suscipit omnis, debitis assumenda iste voluptate.</p>
+            <h1> ¿Por que tu madre es una ballena?</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio et unde, soluta assumenda esse reiciendis ipsam deleniti sunt ullam excepturi officia cumque nihil alias corrupti quos voluptatibus facere dicta ut ipsa laboriosam. Aspernatur quia in deserunt ea laboriosam repellendus quos omnis tempora molestias vitae porro sequi, dolorum quam, accusantium doloribus!</p>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="footer">
+    <h1> Design Sergio Fernández | Minecraft 1.17 España </h1>
+    </div>
+</footer>
+</html>

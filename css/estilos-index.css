@@ -1,0 +1,117 @@
+/* ESTILO DE LA PÁGINA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Encode Sans', sans-serif;
+    scroll-behavior: smooth;
+    background: url(../imagenes-index/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CONTENEDOR GLOBAL */
+
+.contenedor-general {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* NAVEGADOR */
+
+.navegador {
+    text-align: center;
+    padding-top: 14px;
+    background-color: black;
+    width: auto;
+    height: 60px;
+}
+
+.navegador a {
+    text-decoration: none;
+    background-color: black;
+    color: #33ff00;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    transition: background-color 0.5s linear;
+    transition: color 0.5 linear;
+}
+
+.navegador a:hover {
+    background-color: #2aa30b;
+    color: white;
+}
+
+.navegador h1 {
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 20px
+}
+
+.imagen-navegador {
+    text-align: right;
+    width: 10%;
+    height: 10%;
+}
+
+/* MAIN - 1 */
+
+.main-1 {
+    padding: 20px 0;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6%;
+}
+
+.main-1 h1 {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.main-1 p {
+    padding: 20px ;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.main-1 hr {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0, 128, 0, 0.61);
+    color: rgba(0, 128, 0, 0.301);
+    margin-top: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: #1eff006e;
+    margin: 2px;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 25px;
+}

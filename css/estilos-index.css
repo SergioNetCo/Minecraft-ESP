@@ -1,4 +1,5 @@
 /* ESTILO DE LA PÁGINA */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +30,7 @@ html {
 
 .navegador {
     text-align: center;
-    padding-top: 14px;
+    padding-top: 10px;
     background-color: black;
     width: auto;
     height: 60px;
@@ -91,7 +92,21 @@ html {
     padding: 20px ;
     text-align: justify;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+.main-1 span {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    text-align: center;
+    font-weight: 600;
+    background: rgb(30, 150, 6);
+    color: rgb(0, 0, 0);
+    border-radius: 0%;
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    padding: 2px;
+    margin-right: 10px;
 }
 
 .main-1 hr {

@@ -131,6 +131,24 @@ li {
     margin-top: 10px;
 }
 
+/* APARTADO DE DISCORD */
+
+.discord a > img {
+    width: 20%;
+    height: 25%;
+    padding-top: 10px;
+}
+
+.discord {
+    text-align: center;
+}
+
+.discord p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
 /* FOOTER */
 
 .footer {
